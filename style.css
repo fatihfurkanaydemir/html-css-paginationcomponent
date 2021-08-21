@@ -1,0 +1,115 @@
+/*
+      Main Color: #862e9c
+      Grey Color: #343a40
+      Light Color: #f3d9fa
+
+      */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #343a40;
+  line-height: 1;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+a:link,
+a:visited {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.header-text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.pagination {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  border: 1px solid #862e9c;
+  width: 48px;
+  height: 48px;
+  color: #862e9c;
+}
+
+.btn:hover {
+  background-color: #862e9c;
+}
+
+.btn:hover .btn-icon {
+  stroke: #fff;
+}
+
+.btn-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.page-link:link,
+.page-link:visited {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.page-link:hover,
+.page-link:active {
+  color: #fff;
+  background-color: #862e9c;
+}
+
+.page-link.page-link-active {
+  color: #fff;
+  background-color: #862e9c;
+}
+
+.dots {
+  font-size: 18px;
+}
